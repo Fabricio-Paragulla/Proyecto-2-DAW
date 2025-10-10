@@ -1,0 +1,31 @@
+{
+    "users": [
+        {
+    "id": "9fb7bd33-5b8f-4ca0-bdf6-923d504ba5ab",
+    "name": "Fabricio",
+    "email": "fabricio@example.com",
+    "edad": 18,
+    "rol": "administrador",
+    "direcciones": [
+        {
+            "calle": "Guillermo Reyna",
+            "numero": 30,
+            "ciudad": "Madrid",
+            "pais": "España"
+        },
+        {
+            "calle": "Alameda",
+            "numero": 20,
+            "ciudad": "Almería",
+            "pais": "España"
+        },
+        {
+            "calle": "Avenida",
+            "numero": 10,
+            "ciudad": "Valladolid",
+            "pais": "España"
+        }
+            ]
+        }
+    ]
+}
