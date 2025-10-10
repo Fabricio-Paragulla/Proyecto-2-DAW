@@ -17,6 +17,9 @@ export class UsuariosService {
     async findOne(id: string):Promise<IUser>{
         const data = await this.db.read(); //se bloquea
         const usuario = this.db.data.users.find( usuario => usuario.id == parseInt(id));
+        if (!usuario) {
+            throw new Error(`Usuario con id ${id} no encontrado`);
+        }
         return usuario;
     }
 
